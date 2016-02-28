@@ -21,7 +21,7 @@ Will perform a search for all of the occurances of a search string and will hili
 Note that it returns the number of hits, that way you can actually inform the user if you want how many occurances exits.
 
 -(void)removeAllHighlights;
-Removes all of the hilights....basically a rest
+Removes all of the hilights....basically a reset
 
 -(void)searchNext;
 Goes to the first or next occurence of a hilighted string
