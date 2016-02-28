@@ -13,6 +13,13 @@
 		D22C8A421C8354D20003FAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22C8A401C8354D20003FAD8 /* Main.storyboard */; };
 		D22C8A441C8354D20003FAD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22C8A431C8354D20003FAD8 /* Assets.xcassets */; };
 		D22C8A471C8354D20003FAD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22C8A451C8354D20003FAD8 /* LaunchScreen.storyboard */; };
+		D22C8A4F1C8357280003FAD8 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = D22C8A4E1C8357280003FAD8 /* readme.txt */; };
+		D22C8A511C8358480003FAD8 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = D22C8A501C8358480003FAD8 /* license.txt */; };
+		D22C8A571C835AD30003FAD8 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = D22C8A561C835AD30003FAD8 /* search.png */; };
+		D22C8A5A1C836F770003FAD8 /* SearchWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = D22C8A581C836F770003FAD8 /* SearchWebView.js */; };
+		D22C8A651C8373B30003FAD8 /* UIWebView_SearchWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D22C8A641C8373B30003FAD8 /* UIWebView_SearchWebView.m */; };
+		D22C8A681C8374F90003FAD8 /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D22C8A661C8374F90003FAD8 /* arrow-down.png */; };
+		D22C8A691C8374F90003FAD8 /* arrow-up.png in Resources */ = {isa = PBXBuildFile; fileRef = D22C8A671C8374F90003FAD8 /* arrow-up.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,14 @@
 		D22C8A431C8354D20003FAD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D22C8A461C8354D20003FAD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D22C8A481C8354D20003FAD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22C8A4E1C8357280003FAD8 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		D22C8A501C8358480003FAD8 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		D22C8A561C835AD30003FAD8 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		D22C8A581C836F770003FAD8 /* SearchWebView.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SearchWebView.js; sourceTree = "<group>"; };
+		D22C8A631C8373660003FAD8 /* UIWebView_SearchWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebView_SearchWebView.h; sourceTree = "<group>"; };
+		D22C8A641C8373B30003FAD8 /* UIWebView_SearchWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebView_SearchWebView.m; sourceTree = "<group>"; };
+		D22C8A661C8374F90003FAD8 /* arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down.png"; sourceTree = "<group>"; };
+		D22C8A671C8374F90003FAD8 /* arrow-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +78,16 @@
 				D22C8A3D1C8354D20003FAD8 /* ViewController.h */,
 				D22C8A3E1C8354D20003FAD8 /* ViewController.m */,
 				D22C8A401C8354D20003FAD8 /* Main.storyboard */,
+				D22C8A581C836F770003FAD8 /* SearchWebView.js */,
+				D22C8A631C8373660003FAD8 /* UIWebView_SearchWebView.h */,
+				D22C8A641C8373B30003FAD8 /* UIWebView_SearchWebView.m */,
 				D22C8A431C8354D20003FAD8 /* Assets.xcassets */,
 				D22C8A451C8354D20003FAD8 /* LaunchScreen.storyboard */,
 				D22C8A481C8354D20003FAD8 /* Info.plist */,
+				D22C8A6A1C8375700003FAD8 /* Icons */,
 				D22C8A371C8354D20003FAD8 /* Supporting Files */,
+				D22C8A4E1C8357280003FAD8 /* readme.txt */,
+				D22C8A501C8358480003FAD8 /* license.txt */,
 			);
 			path = SearchWebView;
 			sourceTree = "<group>";
@@ -77,6 +98,16 @@
 				D22C8A381C8354D20003FAD8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D22C8A6A1C8375700003FAD8 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D22C8A561C835AD30003FAD8 /* search.png */,
+				D22C8A661C8374F90003FAD8 /* arrow-down.png */,
+				D22C8A671C8374F90003FAD8 /* arrow-up.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +167,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22C8A571C835AD30003FAD8 /* search.png in Resources */,
+				D22C8A691C8374F90003FAD8 /* arrow-up.png in Resources */,
+				D22C8A5A1C836F770003FAD8 /* SearchWebView.js in Resources */,
 				D22C8A471C8354D20003FAD8 /* LaunchScreen.storyboard in Resources */,
+				D22C8A511C8358480003FAD8 /* license.txt in Resources */,
 				D22C8A441C8354D20003FAD8 /* Assets.xcassets in Resources */,
+				D22C8A681C8374F90003FAD8 /* arrow-down.png in Resources */,
+				D22C8A4F1C8357280003FAD8 /* readme.txt in Resources */,
 				D22C8A421C8354D20003FAD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D22C8A3F1C8354D20003FAD8 /* ViewController.m in Sources */,
+				D22C8A651C8373B30003FAD8 /* UIWebView_SearchWebView.m in Sources */,
 				D22C8A3C1C8354D20003FAD8 /* AppDelegate.m in Sources */,
 				D22C8A391C8354D20003FAD8 /* main.m in Sources */,
 			);
