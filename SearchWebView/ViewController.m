@@ -58,11 +58,11 @@
     NSString* searchText = self.textFieldSearch.text;
     
     if(searchText.length > 0)
-        totalItemsFound = [self.webView highlightAllOccurencesOfString:searchText];
+        totalItemsFound = (int)[self.webView highlightAllOccurencesOfString:searchText];
     
     
     //now set the text label to the number of items found
-    self.labelOccurences.text = [NSString stringWithFormat:@"%d occurrences", totalItemsFound];
+    self.labelOccurences.text = [NSString stringWithFormat:@"%d", totalItemsFound];
     
 }
 
