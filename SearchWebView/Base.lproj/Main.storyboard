@@ -74,9 +74,9 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SbV-SX-Qmy">
-                                        <rect key="frame" x="229" y="15" width="29" height="21"/>
+                                        <rect key="frame" x="229" y="15" width="35" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="29" id="0j6-OS-Lbs"/>
+                                            <constraint firstAttribute="width" constant="35" id="0j6-OS-Lbs"/>
                                             <constraint firstAttribute="height" constant="21" id="cUN-qO-7Wz"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
